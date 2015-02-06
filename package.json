@@ -1,0 +1,33 @@
+{
+  "name": "lazo-todomvc",
+  "description": "Lazo TodoMVC example based on http://todomvc.com/",
+  "version": "0.1.0",
+  "keywords": [
+    "lazojs",
+    "todomvc"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lazojs/todomvc/blob/master/LICENSE"
+    }
+  ],
+  "author": {
+    "name": "Jason Strimpel",
+    "email": "jstrimpel@gmail.com"
+  },
+  "bugs": {
+    "web": "https://github.com/lazojs/todomvc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lazojs/todomvc.git"
+  },
+  "github": "https://github.com/lazojs/todomvc",
+  "maintainers": [
+    {
+      "name": "Jason Strimpel",
+      "email": "jstrimpel@gmail.com"
+    }
+  ]
+}
