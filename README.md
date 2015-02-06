@@ -1,6 +1,6 @@
 # Lazojs TodoMVC Example
 
-[Lazo](https://github.com/walmartlabs/lazojs) is a full stack client-server web framework based on Backbone,
+[Lazo](https://github.com/lazojs/lazo) is a full stack client-server web framework based on Backbone,
 Requirejs, and Handlebars (default template engine; you can use whatever template engine you like :)).
 
 The name is derived from the Spanish word LAZO which means link. 
@@ -45,7 +45,7 @@ To install Lazo execute the following command:
 npm install -g --production lazo
 ```
 
-Next clone [TodoMVC](https://github.com/jstrimpel/todomvc):
+Next clone [TodoMVC](https://github.com/lazojs/todomvc):
 
 ```shell
 git clone https://github.com/jstrimpel/todomvc.git
