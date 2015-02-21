@@ -35,12 +35,13 @@ define(['lazoView'], function (View) {
         },
 
         afterRender: function () {
+            var self = this;
+
             this.$checkbox = this.$('.toggle');
             this.$input = this.$('.edit');
             this.listenTo(this.model, 'change', function () {
-                this.$checkbox.prop('checked', this.model.get('completed'));
-                this.$el.toggleClass(this.attributes()['class']);
-                this.render();
+                self.$checkbox.prop('checked', self.model.get('completed'));
+                self.$el.toggleClass(self.attributes()['class']);
                 LAZO.app.trigger('todo-change');
             });
         },
