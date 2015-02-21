@@ -39,7 +39,7 @@ would be easier to compare to other library and framework examples.
 
 ## Getting started
 
-To install Lazo TodoMVC:
+Install Lazo TodoMVC:
 
 ```shell
 npm install lazo-todomvc
