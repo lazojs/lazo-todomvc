@@ -39,22 +39,28 @@ would be easier to compare to other library and framework examples.
 
 ## Getting started
 
-To install Lazo execute the following command:
+To install Lazo TodoMVC:
 
 ```shell
-npm install -g --production lazo
+npm install lazo-todomvc
 ```
 
-Next clone [TodoMVC](https://github.com/lazojs/todomvc):
+Next fork and clone [lazo-todomvc](https://github.com/lazojs/lazo-todomvc):
 
 ```shell
-git clone https://github.com/jstrimpel/todomvc.git
+git clone https://github.com/{YOUR_USERNAME}/lazo-todomvc.git
 ```
 
-Finally start the new application:
+Install dependencies (from local lazo-todomvc repo):
 
 ```shell
-lazo start todomvc/examples/lazojs
+npm install
+```
+
+Finally start the new application (from local lazo-todomvc repo):
+
+```shell
+npm start
 ```
 
 You are done.

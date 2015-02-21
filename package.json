@@ -1,7 +1,7 @@
 {
   "name": "lazo-todomvc",
   "description": "Lazo TodoMVC example based on http://todomvc.com/",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "keywords": [
     "lazojs",
     "todomvc"
@@ -17,13 +17,19 @@
     "email": "jstrimpel@gmail.com"
   },
   "bugs": {
-    "web": "https://github.com/lazojs/todomvc/issues"
+    "url": "https://github.com/lazojs/todomvc/issues"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/lazojs/todomvc.git"
   },
   "github": "https://github.com/lazojs/todomvc",
+  "dependencies": {
+    "lazo": "2.x.x-alpha"
+  },
+  "scripts": {
+    "start": "node ./node_modules/lazo/bin/lazo start ."
+  },
   "maintainers": [
     {
       "name": "Jason Strimpel",
