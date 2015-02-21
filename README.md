@@ -39,13 +39,7 @@ would be easier to compare to other library and framework examples.
 
 ## Getting started
 
-Install Lazo TodoMVC:
-
-```shell
-npm install lazo-todomvc
-```
-
-Next fork and clone [lazo-todomvc](https://github.com/lazojs/lazo-todomvc):
+Fork and clone [lazo-todomvc](https://github.com/lazojs/lazo-todomvc):
 
 ```shell
 git clone https://github.com/{YOUR_USERNAME}/lazo-todomvc.git
