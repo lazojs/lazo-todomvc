@@ -23,9 +23,11 @@ would not be the same outside of this context. For example, when filtering the t
 up the filtered subset of data as opposed to the entire result set. The latter approach was taken so that these examples
 would be easier to compare to other library and framework examples.
 
-### Three different implementations are included:
+### Four different implementations are included:
 
 * **components/todos-single:** This is TodoMVC in its most basic form. It is one component that renders the entire screen.
+* **components/todos-child-views:** This example uses one component that render the entire screen, but the header and footer
+    sections are rendered by child views.
 * **components/todos-multiple:** This example illustrates how to break up a page into reusable components. It consists
   of a parent component, `components/todos-multiple`, and three child components - `components/header`, `components/main`,
   `components/footer`.
@@ -35,7 +37,6 @@ would be easier to compare to other library and framework examples.
   The component associated with the route in question is rendered in the "lazo-layout-body" component container. If an executed
   route handler references the last layout rendered then only the "lazo-layout-body" component is rendered
   on the client. An application can aslo specify a default layout outside of the route definitions.
-* **components/hello:** This is strictly used to visualize the concept of a layout.
 
 ## Getting started
 
