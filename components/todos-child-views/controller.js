@@ -4,8 +4,6 @@ define(['app/ctl'], function (Ctl) {
 
     'use strict';
 
-    return Ctl.extend({
-        view: 'a:footer'
-    });
+    return Ctl;
 
 });

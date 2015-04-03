@@ -1,11 +1,12 @@
 {
   "name": "todomvc-common",
+  "version": "1.0.1",
   "description": "Common TodoMVC utilities used by our apps",
   "license": "MIT",
-  "authors": [
-    "TasteJS team"
-  ],
-  "main": [
+  "repository": "tastejs/todomvc-common",
+  "author": "TasteJS",
+  "main": "base.js",
+  "files": [
     "base.js",
     "base.css"
   ],
@@ -14,9 +15,5 @@
     "tastejs",
     "util",
     "utilities"
-  ],
-  "ignore": [
-    "package.json",
-    "readme.md"
   ]
 }

@@ -53,7 +53,7 @@ define(['lazoSyncher', 'fs', 'underscore'], function (LazoSyncher, fs, _) {
     }
 
     function save(todos) {
-        fs.writeFileSync(todosPath, JSON.stringify(todos), 'utf8');
+        fs.writeFileSync(todosPath, JSON.stringify(todos, null, 4), 'utf8');
     }
 
     function destroy(todos, index) {
