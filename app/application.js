@@ -7,9 +7,10 @@ define(['lazoApp'], function (LazoApp) {
     return LazoApp.extend({
 
         initialize: function (callback) {
-            // set the html tag for initial page load
+            // set the html tag and body class for initial page load
             // alternatively use https://github.com/walmartlabs/lazojs/wiki/Page-Template
-            this.setHtmlTag('<html lang="en" data-framework="lazojs">');
+            this.setHtmlTag('<html lang="en" data-framework="lazo">');
+            this.setBodyClass('learn-bar');
             // set the default page title
             this.setDefaultTitle('LazoJS • TodoMVC');
             // constants used across component views

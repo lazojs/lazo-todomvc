@@ -4,6 +4,8 @@ define(['app/ctl'], function (Ctl) {
 
     'use strict';
 
-    return Ctl;
+    return Ctl.extend({
+        view: 'a:header'
+    });
 
 });

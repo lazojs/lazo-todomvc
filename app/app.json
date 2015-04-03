@@ -5,8 +5,12 @@
         "header(/)":    { "component": "header" },
         "main(/)":      { "component": "main" },
         "footer(/)":    { "component": "footer" },
-        "layout(/)":    { "component": "main", "layout": "todos-layout" }
+        "layout(/)":    { "component": "main", "layout": "todos-layout" },
+        "child-views(/)":    { "component": "todos-child-views" }
     },
-    "css": ["/app/client/bower_components/todomvc-common/base.css"],
-    "js": ["app/client/bower_components/todomvc-common/base"]
+    "css": [
+        "/app/client/todomvc-common/base.css",
+        "/app/client/todomvc-app-css/index.css"
+    ],
+    "js": ["app/client/todomvc-common/base"]
 }

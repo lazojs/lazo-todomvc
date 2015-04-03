@@ -6,6 +6,8 @@ define(['l!lazoCtl'], function (Ctl) {
 
     return Ctl.extend({
 
+        view: 'index',
+
         index: function (options) {
             var self = this;
 
@@ -16,7 +18,7 @@ define(['l!lazoCtl'], function (Ctl) {
                     // this context object will persist throughout the lifetime of the compoent
                     self.ctx.collections.todos = collection;
                     // tell the component what view to render
-                    options.success('index');
+                    options.success(self.view);
                 },
                 error: function (err) {
                     options.error(err);

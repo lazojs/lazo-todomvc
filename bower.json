@@ -2,6 +2,7 @@
   "name": "todomvc-lazojs",
   "version": "0.0.0",
   "dependencies": {
-    "todomvc-common": "~0.3.0"
+    "todomvc-common": "1.x.x",
+    "todomvc-app-css": "1.x.x"
   }
 }
