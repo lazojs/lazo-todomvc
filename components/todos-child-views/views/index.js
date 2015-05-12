@@ -6,7 +6,7 @@ define(['l!lazoCollectionView', 'underscore'], function (View, _) {
 
     return View.extend({
 
-        children: {
+        viewDefinitions: {
             header: 'a:header',
             footer: 'a:footer'
         },
