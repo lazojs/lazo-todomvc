@@ -36,7 +36,7 @@ would be easier to compare to other library and framework examples.
   layout component is associated to route as a property in addition to the component property (see `app/app.json`).
   The component associated with the route in question is rendered in the "lazo-layout-body" component container. If an executed
   route handler references the last layout rendered then only the "lazo-layout-body" component is rendered
-  on the client. An application can aslo specify a default layout outside of the route definitions.
+  on the client. An application can also specify a default layout outside of the route definitions.
 
 ## Getting started
 
